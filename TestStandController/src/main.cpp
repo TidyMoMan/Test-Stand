@@ -18,3 +18,8 @@ void loop() {
     Serial.println(reading);
   }  
 }
+
+//baseline (no attachment hardware) -> ~ -6000
+//180g -> ~ -2000
+//402g -> ~ 2700
+//2285g -> 42500
