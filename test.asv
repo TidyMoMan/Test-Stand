@@ -1,0 +1,7 @@
+data = readmatrix("C:\Users\moses\Documents\Test-Stand\test_stand_data_2025_04_05__17_10_06.csv");
+
+avgWt = mean(data(:, 2));
+
+plot(data(:, 1), data(:, 2))
+hold on;
+plot(data(:, 1), avgWt)
