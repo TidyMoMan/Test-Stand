@@ -4,7 +4,7 @@ import time
 import csv
 
 now = datetime.today().strftime('_%Y_%m_%d__%H_%M_%S')
-file = ("test_stand_data"+now+".csv")
+file = ("data/test_stand_data"+now+".csv")
 print("Writing to: ", file)
 
 serialPort = serial.Serial(
