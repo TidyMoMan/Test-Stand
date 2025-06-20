@@ -1,4 +1,4 @@
-data = readmatrix("C:\Users\moses\Documents\Test-Stand\test_stand_data_2025_05_16__14_58_22.csv");
+data = readmatrix("C:\Users\moses\Documents\Test-Stand\test_stand_data_2025_06_19__22_11_54.csv");
 
 data(:, 1) = data(:, 1) - data(1, 1); %convert to seconds since logging started
 
